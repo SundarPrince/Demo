@@ -5,7 +5,7 @@ pipeline
 
     stages
 	{
-        stage('Devops Project') 
+        stage('Devops Project Architecure') 
 		{
 		
             steps 
@@ -21,7 +21,7 @@ pipeline
                 echo 'Developer write the code '
             }
         }
-		 stage('push into the github') 
+		 stage('Testing and build the code from the developer Team') 
 		{
 		
             steps 
@@ -30,7 +30,7 @@ pipeline
             }
         }
 		
-		stage('Testing the code') 
+		stage('ci cd integration') 
 		{
 		
             steps 
@@ -39,6 +39,61 @@ pipeline
             }
         }
 		
+		stage('get jar file from maven build tools') 
+		{
+		
+            steps 
+			{
+                echo 'Testing the code'
+            }
+        }
+		
+		
+		stage('push into the jar file to docker') 
+		{
+		
+            steps 
+			{
+                echo 'Testing the code'
+            }
+        }
+		
+		stage('push into the docker to kubernates') 
+		{
+		
+            steps 
+			{
+                echo 'Testing the code'
+            }
+        }
+		
+		stage('sonarQube and Nexus') 
+		{
+		
+            steps 
+			{
+                echo 'Testing the code'
+            }
+        }
+		
+		stage('Ansible operation') 
+		{
+		
+            steps 
+			{
+                echo 'Testing the code'
+            }
+        }
+		
+		
+		stage('grapana monitoring tools) 
+		{
+		
+            steps 
+			{
+                echo 'Testing the code'
+            }
+        }
     }
 }
 
