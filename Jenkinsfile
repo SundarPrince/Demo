@@ -86,7 +86,7 @@ pipeline
         }
 		
 		
-		stage('grapana monitoring tools) 
+		stage('grapana monitoring tools') 
 		{
 		
             steps 
