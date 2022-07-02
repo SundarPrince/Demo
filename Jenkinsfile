@@ -5,7 +5,7 @@ pipeline
 
     stages
 	{
-        stage('lklk') 
+        stage('Devops Project') 
 		{
 		
             steps 
@@ -13,15 +13,15 @@ pipeline
                 echo 'Devops Project'
             }
         }
-		 stage('one') 
+		 stage('Developer write the code') 
 		{
 		
             steps 
 			{
-                echo 'Devoper write the code '
+                echo 'Developer write the code '
             }
         }
-		 stage('two') 
+		 stage('push into the github') 
 		{
 		
             steps 
@@ -30,7 +30,7 @@ pipeline
             }
         }
 		
-		stage('f') 
+		stage('Testing the code') 
 		{
 		
             steps 
